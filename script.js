@@ -9,5 +9,6 @@ const changeBColour = () => {
   let t = document.createTextNode("Test!");
   x.appendChild(t);
   document.body.appendChild(x);*/
-  document.body.style.backgroundColor = "red";
+  document.querySelector("body").style.backgroundColor = "#ff0A22";
+  //document.body.style.backgroundColor = "red";
 };
